@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.menu {
+    height: 84px;
+    background-color: #233871;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: auto; 
+    max-height: 70px; 
+    width: auto; 
+    max-width: 140px; 
+}
+
+.menu-search {
+    flex-grow: 1;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 36px;
+}
+
+.menu-search-input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+}
+
+.banner {
+    width: 80%; /* Bạn có thể điều chỉnh kích thước này */
+    margin: 20px auto; /* Căn giữa banner */
+}
+
+.banner-image {
+    width: 100%; /* Ảnh banner sẽ chiếm toàn bộ chiều rộng của thẻ banner */
+    height: auto; /* Giữ tỷ lệ khung hình cho ảnh */
+}
+
+.navigation {
+    background-color: #233871; /* Màu nền cho menu */
+    padding: 10px 0; /* Khoảng cách trên và dưới cho menu */
+}
+
+.navigation ul {
+    display: flex; /* Hiển thị menu theo hàng ngang */
+    justify-content: center; /* Căn giữa các nút */
+    list-style: none; /* Bỏ dấu đầu dòng */
+}
+
+.navigation li {
+    margin-left: 20px; /* Khoảng cách giữa các nút */
+}
+
+.navigation a {
+    color: white; /* Màu chữ */
+    text-decoration: none; /* Bỏ gạch chân */
+    padding: 10px 20px; /* Khoảng cách trong từng nút */
+    border-radius: 4px; /* Bo tròn góc */
+    background-color: #233871; /* Màu nền cho nút */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền khi hover */
+}
+
+.navigation a:hover {
+    background-color: #1f2a44; /* Màu nền khi hover */
+}
